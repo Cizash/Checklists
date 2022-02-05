@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C9DC4C74279EA453008B7046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C73279EA453008B7046 /* AppDelegate.swift */; };
 		C9DC4C76279EA453008B7046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C75279EA453008B7046 /* SceneDelegate.swift */; };
-		C9DC4C78279EA453008B7046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C77279EA453008B7046 /* ViewController.swift */; };
+		C9DC4C78279EA453008B7046 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C77279EA453008B7046 /* ChecklistViewController.swift */; };
 		C9DC4C7B279EA453008B7046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DC4C79279EA453008B7046 /* Main.storyboard */; };
 		C9DC4C7D279EA457008B7046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC4C7C279EA457008B7046 /* Assets.xcassets */; };
-		C9DC4C80279EA457008B7046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DC4C7E279EA457008B7046 /* LaunchScreen.storyboard */; };
+		C9DC4C88279EC786008B7046 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C87279EC786008B7046 /* ChecklistItem.swift */; };
+		C9DC4C8A279F9D01008B7046 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C89279F9D01008B7046 /* ItemDetailViewController.swift */; };
+		C9DC4C8C27A7104F008B7046 /* AllListsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C8B27A7104F008B7046 /* AllListsViewContoller.swift */; };
+		C9DC4C8E27A73135008B7046 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C8D27A73135008B7046 /* Checklist.swift */; };
+		C9DC4C9027A74684008B7046 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C8F27A74684008B7046 /* ListDetailViewController.swift */; };
+		C9DC4C9227ABB94E008B7046 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C9127ABB94E008B7046 /* DataModel.swift */; };
+		C9DC4C9427ACB72B008B7046 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C9327ACB72B008B7046 /* IconPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9DC4C70279EA453008B7046 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DC4C73279EA453008B7046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9DC4C75279EA453008B7046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9DC4C77279EA453008B7046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9DC4C77279EA453008B7046 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		C9DC4C7A279EA453008B7046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9DC4C7C279EA457008B7046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9DC4C7F279EA457008B7046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DC4C81279EA457008B7046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DC4C87279EC786008B7046 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		C9DC4C89279F9D01008B7046 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		C9DC4C8B27A7104F008B7046 /* AllListsViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsViewContoller.swift; sourceTree = "<group>"; };
+		C9DC4C8D27A73135008B7046 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		C9DC4C8F27A74684008B7046 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		C9DC4C9127ABB94E008B7046 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C9DC4C9327ACB72B008B7046 /* IconPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +68,19 @@
 		C9DC4C72279EA453008B7046 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
+				C9DC4C8B27A7104F008B7046 /* AllListsViewContoller.swift */,
 				C9DC4C73279EA453008B7046 /* AppDelegate.swift */,
-				C9DC4C75279EA453008B7046 /* SceneDelegate.swift */,
-				C9DC4C77279EA453008B7046 /* ViewController.swift */,
-				C9DC4C79279EA453008B7046 /* Main.storyboard */,
 				C9DC4C7C279EA457008B7046 /* Assets.xcassets */,
-				C9DC4C7E279EA457008B7046 /* LaunchScreen.storyboard */,
+				C9DC4C8D27A73135008B7046 /* Checklist.swift */,
+				C9DC4C87279EC786008B7046 /* ChecklistItem.swift */,
+				C9DC4C77279EA453008B7046 /* ChecklistViewController.swift */,
+				C9DC4C9127ABB94E008B7046 /* DataModel.swift */,
 				C9DC4C81279EA457008B7046 /* Info.plist */,
+				C9DC4C89279F9D01008B7046 /* ItemDetailViewController.swift */,
+				C9DC4C8F27A74684008B7046 /* ListDetailViewController.swift */,
+				C9DC4C79279EA453008B7046 /* Main.storyboard */,
+				C9DC4C75279EA453008B7046 /* SceneDelegate.swift */,
+				C9DC4C9327ACB72B008B7046 /* IconPickerViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -125,7 +143,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DC4C80279EA457008B7046 /* LaunchScreen.storyboard in Resources */,
 				C9DC4C7D279EA457008B7046 /* Assets.xcassets in Resources */,
 				C9DC4C7B279EA453008B7046 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +155,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DC4C78279EA453008B7046 /* ViewController.swift in Sources */,
+				C9DC4C8A279F9D01008B7046 /* ItemDetailViewController.swift in Sources */,
+				C9DC4C78279EA453008B7046 /* ChecklistViewController.swift in Sources */,
 				C9DC4C74279EA453008B7046 /* AppDelegate.swift in Sources */,
+				C9DC4C9427ACB72B008B7046 /* IconPickerViewController.swift in Sources */,
 				C9DC4C76279EA453008B7046 /* SceneDelegate.swift in Sources */,
+				C9DC4C88279EC786008B7046 /* ChecklistItem.swift in Sources */,
+				C9DC4C8C27A7104F008B7046 /* AllListsViewContoller.swift in Sources */,
+				C9DC4C8E27A73135008B7046 /* Checklist.swift in Sources */,
+				C9DC4C9027A74684008B7046 /* ListDetailViewController.swift in Sources */,
+				C9DC4C9227ABB94E008B7046 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +177,6 @@
 				C9DC4C7A279EA453008B7046 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C9DC4C7E279EA457008B7046 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9DC4C7F279EA457008B7046 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,8 +308,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,8 +336,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
